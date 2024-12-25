@@ -15,11 +15,12 @@ cd repository
 pip install -r FLLS_BSPO/requirements.txt 
 
 ### Directory Structure
-├── data/               # Dataset files: constains the training data with different UAV elevation angles, e.g., $45^\circ$, $70^\circ$   
+├── data/               # Dataset files: constains the training data with different UAV elevation angles, e.g., $55^\circ$   
 ├── models/             # Model implementations  
 ├── utils/             # Utility functions  
-├── experiments/       # Experiment configurations  
-├── results/          # Generated results  
+├── log/
+├── save/             # Save results  
+├── main_fed_spec.py  # Main function
 └── README.md 
 
 ### Citation
