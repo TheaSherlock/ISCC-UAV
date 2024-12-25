@@ -10,7 +10,7 @@ torch==0.4.1
 torchvision==0.2.1
 
 ### Installation
-git clone https://github.com/username/repository.git  
+git clone https://github.com/TheaSherlock/ISCC-UAV.git
 cd repository  
 pip install -r FLLS_BSPO/requirements.txt 
 
