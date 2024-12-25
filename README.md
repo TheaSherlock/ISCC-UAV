@@ -15,13 +15,16 @@ cd repository
 pip install -r FLLS_BSPO/requirements.txt 
 
 ### Directory Structure
-├── data/               # Dataset files: constains the training data with different UAV elevation angles, e.g., $55^\circ$   
+├── data/               # Dataset files: contain the training data with various UAV elevation angles, such as $55^\circ$     
 ├── models/             # Model implementations  
 ├── utils/              # Utility functions  
 ├── log/     
 ├── save/                  # Save results  
 ├── main_fed_spec.py       # Main function     
 └── README.md 
+
+### Usage
+Create the desired data and execute main_fed_spec.py to initiate the federated training process.
 
 ### Citation
 @article{Yao2024paper,  
